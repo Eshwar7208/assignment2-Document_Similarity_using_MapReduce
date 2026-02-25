@@ -143,15 +143,15 @@ hadoop fs -cat /output1/*
 
 ## Sample Input
 
-    Document1 This is a sample document containing words
-    Document2 Another document that also has words
-    Document3 Sample text with different words
+    Document1 This is a first document. Hey I am the first document
+    Document2 This is the second document
+    Document3 Hey I am the third document. How are you
 
 ## Sample Output
 
-    Document1, Document2    Similarity: 0.18
-    Document1, Document3    Similarity: 0.20
-    Document2, Document3    Similarity: 0.10
+    Document1, Document2    Similarity: 0.36
+    Document1, Document3    Similarity: 0.36
+    Document2, Document3    Similarity: 0.08
 
 ------------------------------------------------------------------------
 
